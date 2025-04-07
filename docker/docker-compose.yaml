@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  oracle-app:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: oracle-app
+    ports:
+      - "3000:3000"
+    env_file:
+      - ../.env
+    volumes:
+      - ../:/app:cached
+    restart: unless-stopped
+
+  # TODO: set up a database container and nginx proxy
