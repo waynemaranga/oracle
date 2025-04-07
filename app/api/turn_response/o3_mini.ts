@@ -75,21 +75,3 @@ console.log(AZURE_OPENAI_API_KEY); // Log the API key
 console.log(AZURE_OPENAI_ENDPOINT); // Log the endpoint
 
 // Example POST request
-const test_response = await fetch("http://localhost:3000/api/turn_response/o3_mini", {
-    method: "POST",
-    headers: {
-        "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-        messages: [
-        {
-            role: "user",
-            content: "Hello, how are you?",
-        },
-        ],
-        tools: [],
-    }),
-    });
-
-
-console.log("Test response status:", test_response); // Log the response status

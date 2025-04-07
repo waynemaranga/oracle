@@ -10,6 +10,7 @@ export const COHERE_API_KEY = process.env.COHERE_API_KEY;
 // export const PINECONE_API_KEY = process.env.PINECONE_API_KEY;
 // export const HUGGINGFACE_API_KEY = process.env.HUGGINGFACE_API_KEY;
 // export const MONGO_URI = process.env.MONGO_URI;
+export const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 
 // Developer prompt for the assistant
 export const DEVELOPER_PROMPT = `
