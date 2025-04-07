@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "github.copilot",
+        "github.vscode-pull-request-github",
+        "visualstudioexptteam.vscodeintellicode",
+        "ms-vscode.vscode-typescript-next",
+        "csstools.postcss",
+        "bradlc.vscode-tailwindcss",
+        "rangav.vscode-thunder-client"
+    ]
+}
